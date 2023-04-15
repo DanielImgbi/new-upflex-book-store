@@ -1,4 +1,4 @@
-import '../style/Home.css'
+import './/Home.css'
 import { BsSearch } from 'react-icons/bs'
 
 
@@ -8,7 +8,7 @@ const Home = () => {
             <div className="container">
                 <section className="first-column">
                     <div className="img-con">
-                        <img src='../oldBooks.jpg' alt="book here" />
+                        <img src='../img/oldBooks.jpg' alt="book here" />
 
                     </div>
 
@@ -19,7 +19,7 @@ const Home = () => {
 
                 <section className="second-column">
                     <div className="texts">
-                        <h1>Good Author & Wonderful Plotin</h1>
+                        <h1>Good Author & Wonderful Ploting</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Iste delectus ab veritatis aperiam atque, quod illum culpa tempore magnam nihil!

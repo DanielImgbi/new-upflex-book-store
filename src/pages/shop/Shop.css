@@ -1,0 +1,26 @@
+.shop {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* .shop-items {
+                display: flex;
+                justify-content: baseline;
+                background: red;
+                flex-wrap: wrap;
+            } */
+
+/* .shop-item-link {
+            width: 100%;
+            background-color: green;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    } */

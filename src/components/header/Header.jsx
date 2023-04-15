@@ -1,5 +1,6 @@
-import '../style/Header.css';
-import { BsSearch } from 'react-icons/bs';
+import './Header.css';
+import {  BsCart2, BsSearch } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -8,23 +9,22 @@ const Header = () => {
             <div className="container">
 
                 <div className="logo">
-                    <img src="./logo.webp" alt="logo" />
+                    <img src="../img/logo.webp" alt="logo" />
 
-                </div>
+                </div> 
 
                 <nav className="nav">
                     <ul>
-                        <li>Homepage</li>
-                        <li>Shop</li>
-                        <li>Blog</li>
+                        <li><Link to='/' className='link'>Home</Link></li>
+                        <li><Link to='/shop' className='link'>Shop</Link></li>
                         <li>Pages</li>
-                        <li>Contacts</li>
+                        <li><label htmlFor="footer">Contacts</label></li>
                         <li> <label htmlFor="search"><BsSearch/></label></li>
                     </ul>
                 </nav>
                 
                 <div className="cart">
-                    <div className="cart-icon"></div>
+                    <div className="cart-icon"><BsCart2/></div>
                     <span>
                         14
                     </span>

@@ -1,20 +1,16 @@
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import './App.css';
-import Shop from "./pages/Shop";
-import Blog from './pages/Blog';
+
+import MyRoutes from "./pages";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* <Home/> */}
-      {/* <Shop/> */}
-      <Blog/>
-      <Footer/>
-      
-
+      <Header/>
+      <MyRoutes/>
+      <Footer/>  
     </div>
   );
 }

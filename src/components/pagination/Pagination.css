@@ -1,0 +1,12 @@
+.pagination {
+    display: flex;
+}
+
+.arrows {
+    height: 50px;
+    width: 120px;
+    background-color: orangered;
+    color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}

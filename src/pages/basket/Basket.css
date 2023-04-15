@@ -1,5 +1,6 @@
-.blog{
+.basket {
     height: 650px;
     width: 100%;
     background: yellow;
+    padding: 30px;
 }
