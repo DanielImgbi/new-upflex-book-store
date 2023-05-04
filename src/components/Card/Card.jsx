@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Card = ({item, index}) => {
   return (
-      <div>
+      <>
           <div className="shop-item" index={index}>
                     <img src={`${item.image}`} alt="book" />
                     <div className='shop-item-detail'> 
@@ -13,7 +13,7 @@ const Card = ({item, index}) => {
                         <Link to={`basket/${item.id}`} className='button'>View</Link>
                     </div>
             </div>
-        </div>
+        </>
   )
 }
 

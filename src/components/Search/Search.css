@@ -1,0 +1,112 @@
+@media (max-width: 890px){
+    
+    .search-div{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        /* background-color: aquamarine; */
+        justify-content: center;
+        
+    
+    }
+    .search-div input{
+        width: 50%;
+        padding: 20px;
+        background: whitesmoke;
+        outline: none;
+        border: none;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+
+        
+    }
+    .search-category{
+        height: 100%;
+        width: 30%;
+        background-color: rgb(215, 210, 210);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .search-category select{
+        background-color: inherit;
+        border: none;
+        background-color: rgb(215, 210, 210);
+        width: 50%;
+        outline: none;
+    
+    }
+    .search-div span{
+        height: 100%;
+        width: 9%;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: grey;
+    }
+    .search-div span:hover{
+        /* color: orangered; */
+        cursor: pointer;
+    }
+    
+    .search-div input:focus ~ span{
+        background-color: orangered;
+        color: #fff;
+    }
+}
+
+@media (min-width: 890px){
+    .search-div{
+        height: 15%;
+        width: 100%;
+        /* background-color: rgb(215, 210, 210); */
+        display: flex;
+        
+    
+    }
+    .search-div input{
+        width: 50%;
+        padding: 20px;
+        background: whitesmoke;
+        outline: none;
+        border: none;
+        
+    }
+    .search-category{
+        height: 100%;
+        width: 30%;
+        background-color: rgb(215, 210, 210);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .search-category select{
+        background-color: inherit;
+        border: none;
+        background-color: rgb(215, 210, 210);
+        width: 50%;
+        outline: none;
+    
+    }
+    .search-div span{
+        height: 100%;
+        width: 9%;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: grey;
+    }
+    .search-div span:hover{
+        /* color: orangered; */
+        cursor: pointer;
+    }
+    
+    .search-div input:focus ~ span{
+        background-color: orangered;
+        color: #fff;
+    }
+}

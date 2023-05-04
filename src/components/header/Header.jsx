@@ -18,16 +18,25 @@ const Header = () => {
                         <li><Link to='/' className='link'>Home</Link></li>
                         <li><Link to='/shop' className='link'>Shop</Link></li>
                         <li>Pages</li>
-                        <li><label htmlFor="footer">Contacts</label></li>
-                        <li> <label htmlFor="search"><BsSearch/></label></li>
+                        <li><Link to="#footer" className='link'>Contacts</Link></li>
                     </ul>
                 </nav>
                 
-                <div className="cart">
-                    <div className="cart-icon"><BsCart2/></div>
-                    <span>
-                        14
-                    </span>
+                <div className="search-cart-con">
+
+                    <div className="search">
+                        <span> <Link to="/search" style={{color:'black'}}><BsSearch/></Link></span>
+                    </div>
+                    <div className="cart">
+                        <div className="cart-icon">
+                            
+                            <BsCart2 />
+                            
+                            <span>
+                                14
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
