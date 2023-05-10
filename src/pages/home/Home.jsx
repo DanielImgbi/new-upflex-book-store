@@ -1,5 +1,5 @@
 import Search from '../../components/Search/Search'
-import './/Home.css'
+import './Home.css'
 
 
 

@@ -1,4 +1,47 @@
-.search-page{
-    width: 100%;
-    background-color: aqua;
+@media (max-width: 890px){
+    .search-page{
+        width: 100vw;
+        /* background-color: gray; */
+        position: relative;
+    }
+    .column1{
+        width: 100%;
+        padding: 1rem 1rem;
+        /* background: whitesmoke; */
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        padding: 2rem 1rem;
+        width: 63.5%;
+        overflow-y: scroll;
+    }
+}
+
+@media (min-width: 890px){
+    .search-page{
+        width: 100vw;
+        /* background-color: gray; */
+        display: flex;
+        position: relative;
+    }
+    .column1{
+        width: 35%;
+        height: 92vh;
+        padding: 2rem 1rem;
+        /* position: fixed; */
+        background: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column2{
+        padding: 2rem 1rem;
+        width: 63.5%;
+        overflow-y: scroll;
+    }
 }

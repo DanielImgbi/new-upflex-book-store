@@ -1,8 +1,25 @@
 import React from 'react'
-import './SearchPage.css'
+import './SearchPage.css';
+import Search from '../../components/Search/Search';
+
 const SearchPage = () => {
   return (
-    <div className='search-page'>SearchPage</div>
+    <main className='search-page'>
+
+      <div className="column1">
+        <Search />
+
+        <span className="search-history">
+          {/* Search history */}
+        </span>
+        
+      </div>
+
+      <div className="column2">
+        <h1>No match found</h1>
+      </div>
+
+    </main>
   )
 }
 

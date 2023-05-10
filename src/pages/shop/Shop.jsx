@@ -1,7 +1,6 @@
 import { useState, useReducer } from 'react';
 import './Shop.css';
 import { datas } from '../../assets/data/data';
-import { Link } from "react-router-dom";
 import Card from '../../components/Card/Card';
 import Pagination from '../../components/pagination/Pagination';
 
@@ -23,14 +22,10 @@ const Shop = () => {
     
     return (
         <div className='shop'>
-            {/* <div className="shelf-img">
-                <img src="../img/library.jpg" alt="shelf" />
-            </div> */}
-
             <div className="shop-items">
                 {
                     data.slice(state.startIndex, state.endIndex).map((item, index) =>(
-                        <div to={`/basket/${item.id}`} key={index} className='shop-item-div'>
+                        <div key={index} className='shop-item-div'>
                             <Card item={item} index={index}/>
                         </div>
                     ))

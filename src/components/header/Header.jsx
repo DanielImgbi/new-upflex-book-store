@@ -9,7 +9,9 @@ const Header = () => {
             <div className="container">
 
                 <div className="logo">
-                    <img src="../img/logo.webp" alt="logo" />
+                    <Link to='/'> 
+                        <img src="../img/logo.webp" alt="logo" />
+                    </Link>
 
                 </div> 
 
@@ -18,7 +20,7 @@ const Header = () => {
                         <li><Link to='/' className='link'>Home</Link></li>
                         <li><Link to='/shop' className='link'>Shop</Link></li>
                         <li>Pages</li>
-                        <li><Link to="#footer" className='link'>Contacts</Link></li>
+                        <li><a href="#contact" className='link'>Contacts</a></li>
                     </ul>
                 </nav>
                 
@@ -28,14 +30,14 @@ const Header = () => {
                         <span> <Link to="/search" style={{color:'black'}}><BsSearch/></Link></span>
                     </div>
                     <div className="cart">
-                        <div className="cart-icon">
+                        <Link to='/basket' className="cart-icon">
                             
                             <BsCart2 />
                             
                             <span>
                                 14
                             </span>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
